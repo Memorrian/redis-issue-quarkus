@@ -1,0 +1,11 @@
+quarkus:
+  http:
+    port: 8181
+  redis:
+    devservices:
+      enabled: true
+  micrometer:
+    export:
+      prometheus:
+        enabled: true
+        path: /metrics
