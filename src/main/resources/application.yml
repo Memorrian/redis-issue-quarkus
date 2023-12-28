@@ -9,3 +9,7 @@ quarkus:
       prometheus:
         enabled: true
         path: /metrics
+  cache:
+    redis:
+      getAnimals:
+        value-type: java.util.Collection
